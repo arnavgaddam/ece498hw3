@@ -1,0 +1,84 @@
+(venv) arnav@Wii:~/ece498hw3$ python3 baseline.py
+Starting baseline evaluation (no tools)...
+Running 5 trials for each of 5 problems
+
+=== Running P1 (4-bit Carry-Lookahead Adder) ===
+  Trial 1/5... PASS
+  Trial 2/5... PASS
+  Trial 3/5... PASS
+  Trial 4/5... PASS
+  Trial 5/5... PASS
+
+=== Running P2 (VGA Controller) ===
+  Trial 1/5... PASS
+  Trial 2/5... PASS
+  Trial 3/5... PASS
+  Trial 4/5... PASS
+  Trial 5/5... PASS
+
+=== Running P3 (I2C Master Controller) ===
+  Trial 1/5... PASS
+  Trial 2/5... FAIL
+    Reason: Testbench failed: Testing I2C Master Controller
+FAIL: sda not valid
+/tmp/tmpttpocdc7/testbench.v:49: $finish(1) called at 50040000 (1ps)
+
+  Trial 3/5... PASS
+  Trial 4/5... PASS
+  Trial 5/5... FAIL
+    Reason: Testbench failed: Testing I2C Master Controller
+FAIL: sda not valid
+/tmp/tmppyb18ejc/testbench.v:49: $finish(1) called at 50040000 (1ps)
+
+
+=== Running P4 (AXI Stream FIFO) ===
+  Trial 1/5... FAIL
+    Reason: Simulation failed: ["/tmp/tmpdg7l8epj/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\n/tmp/tmpdg7l8epj/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\n/tmp/tmpdg7l8epj/testbench.v:18: error: Output port expression must support a continuous assignment.\n/tmp/tmpdg7l8epj/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\n2 error(s) during elaboration.\n"]
+  Trial 2/5... FAIL
+    Reason: Simulation failed: ["/tmp/tmp4ohfjqq0/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\n/tmp/tmp4ohfjqq0/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\n/tmp/tmp4ohfjqq0/testbench.v:18: error: Output port expression must support a continuous assignment.\n/tmp/tmp4ohfjqq0/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\n2 error(s) during elaboration.\n"]
+  Trial 3/5... FAIL
+    Reason: Simulation failed: ["/tmp/tmpn39bdpli/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\n/tmp/tmpn39bdpli/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\n/tmp/tmpn39bdpli/testbench.v:18: error: Output port expression must support a continuous assignment.\n/tmp/tmpn39bdpli/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\n2 error(s) during elaboration.\n"]
+  Trial 4/5... FAIL
+    Reason: Simulation failed: ["/tmp/tmp70ko5jpv/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\n/tmp/tmp70ko5jpv/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\n/tmp/tmp70ko5jpv/testbench.v:18: error: Output port expression must support a continuous assignment.\n/tmp/tmp70ko5jpv/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\n2 error(s) during elaboration.\n"]
+  Trial 5/5... FAIL
+    Reason: Simulation failed: ["/tmp/tmpfq0z7mf4/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\n/tmp/tmpfq0z7mf4/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\n/tmp/tmpfq0z7mf4/testbench.v:18: error: Output port expression must support a continuous assignment.\n/tmp/tmpfq0z7mf4/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\n2 error(s) during elaboration.\n"]
+
+=== Running P5 (AXI4 Full Read/Write Master) ===
+  Trial 1/5... FAIL
+    Reason: Testbench failed: Testing AXI4 Full Master
+FAIL: ready should be high when idle
+/tmp/tmpc9wst_8c/testbench.v:83: $finish(1) called at 240000 (1ps)
+
+  Trial 2/5... FAIL
+    Reason: Testbench failed: Testing AXI4 Full Master
+FAIL: ready should be high when idle
+/tmp/tmpm0ie4_h7/testbench.v:83: $finish(1) called at 240000 (1ps)
+
+  Trial 3/5... FAIL
+    Reason: Testbench failed: Testing AXI4 Full Master
+FAIL: ready should be high when idle
+/tmp/tmp_fbm2tsi/testbench.v:83: $finish(1) called at 240000 (1ps)
+
+  Trial 4/5... FAIL
+    Reason: Testbench failed: Testing AXI4 Full Master
+FAIL: ready should be high when idle
+/tmp/tmp29j56v00/testbench.v:83: $finish(1) called at 240000 (1ps)
+
+  Trial 5/5... FAIL
+    Reason: Testbench failed: Testing AXI4 Full Master
+FAIL: ready should be high when idle
+/tmp/tmp8gpba3pr/testbench.v:83: $finish(1) called at 240000 (1ps)
+
+
+================================================================================
+BASELINE RESULTS (No Tools)
+================================================================================
+Problem  Difficulty   T1   T2   T3   T4   T5   Pass Rate
+--------------------------------------------------------------------------------
+P1       easy         P    P    P    P    P    1.0/5
+P2       easy         P    P    P    P    P    1.0/5
+P3       hard         P    F    P    P    F    0.6/5
+P4       hard         F    F    F    F    F    0.0/5
+P5       hard         F    F    F    F    F    0.0/5
+================================================================================
+
