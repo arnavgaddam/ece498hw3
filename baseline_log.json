@@ -1,0 +1,591 @@
+{
+  "P1": [
+    {
+      "trial": 1,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing CLA 4-bit Adder\nPASS: All test cases passed\n",
+        "errors": [],
+        "test_cases": "all passed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing CLA 4-bit Adder\nPASS: All test cases passed\n",
+        "errors": [],
+        "test_cases": "all passed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing CLA 4-bit Adder\nPASS: All test cases passed\n",
+        "errors": [],
+        "test_cases": "all passed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing CLA 4-bit Adder\nPASS: All test cases passed\n",
+        "errors": [],
+        "test_cases": "all passed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing CLA 4-bit Adder\nPASS: All test cases passed\n",
+        "errors": [],
+        "test_cases": "all passed"
+      }
+    }
+  ],
+  "P2": [
+    {
+      "trial": 1,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing VGA Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "timing_checks": "passed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing VGA Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "timing_checks": "passed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing VGA Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "timing_checks": "passed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing VGA Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "timing_checks": "passed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing VGA Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "timing_checks": "passed"
+      }
+    }
+  ],
+  "P3": [
+    {
+      "trial": 1,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing I2C Master Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "protocol_checks": "passed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": false,
+      "reason": "Testbench failed: Testing I2C Master Controller\nFAIL: sda not valid\n/tmp/tmp2baj5dow/testbench.v:49: $finish(1) called at 50040000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing I2C Master Controller\nFAIL: sda not valid\n/tmp/tmp2baj5dow/testbench.v:49: $finish(1) called at 50040000 (1ps)\n",
+        "errors": [],
+        "protocol_checks": "failed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": false,
+      "reason": "Simulation failed: ['/tmp/tmpy022o0iw/module.v:44: syntax error\\n/tmp/tmpy022o0iw/module.v:47: error: Invalid module item.\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpy022o0iw/module.v:44: syntax error\n/tmp/tmpy022o0iw/module.v:47: error: Invalid module item.\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing I2C Master Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "protocol_checks": "passed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": false,
+      "reason": "Simulation failed: ['/tmp/tmpxwa498i3/module.v:83: syntax error\\n/tmp/tmpxwa498i3/module.v:82: error: Invalid module instantiation\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpxwa498i3/module.v:83: syntax error\n/tmp/tmpxwa498i3/module.v:82: error: Invalid module instantiation\n"
+        ],
+        "simulation": "failed"
+      }
+    }
+  ],
+  "P4": [
+    {
+      "trial": 1,
+      "pass": false,
+      "reason": "Testbench failed: Testing AXI Stream FIFO\nFAIL: packet_count should be 2, got  z\n/tmp/tmp9cyqbg5d/testbench.v:59: $finish(1) called at 70000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing AXI Stream FIFO\nFAIL: packet_count should be 2, got  z\n/tmp/tmp9cyqbg5d/testbench.v:59: $finish(1) called at 70000 (1ps)\n",
+        "errors": [],
+        "fifo_checks": "failed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": false,
+      "reason": "Simulation failed: [\"/tmp/tmpabm9314f/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\\n/tmp/tmpabm9314f/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\\n/tmp/tmpabm9314f/testbench.v:18: error: Output port expression must support a continuous assignment.\\n/tmp/tmpabm9314f/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\\n2 error(s) during elaboration.\\n\"]",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpabm9314f/testbench.v:18: error: Variable 's_ready' cannot be driven by a continuous assignment/module.\n/tmp/tmpabm9314f/testbench.v:18:      : This is allowed when SystemVerilog is enabled.\n/tmp/tmpabm9314f/testbench.v:18: error: Output port expression must support a continuous assignment.\n/tmp/tmpabm9314f/testbench.v:18:      : Port 4 (s_ready) of axi_stream_fifo is connected to testbench.s_ready\n2 error(s) during elaboration.\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": false,
+      "reason": "No module code provided",
+      "details": {}
+    },
+    {
+      "trial": 4,
+      "pass": false,
+      "reason": "Simulation failed: ['/tmp/tmp83cesiqg/module.v:95: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmp83cesiqg/module.v:94: error: Variable declaration in unnamed block requires SystemVerilog.\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmp83cesiqg/module.v:95: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmp83cesiqg/module.v:94: error: Variable declaration in unnamed block requires SystemVerilog.\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": false,
+      "reason": "Simulation failed: ['/tmp/tmpm1lh38ni/module.v:69: syntax error\\n/tmp/tmpm1lh38ni/module.v:69: error: Malformed statement\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpm1lh38ni/module.v:69: syntax error\n/tmp/tmpm1lh38ni/module.v:69: error: Malformed statement\n"
+        ],
+        "simulation": "failed"
+      }
+    }
+  ],
+  "P5": [
+    {
+      "trial": 1,
+      "pass": false,
+      "reason": "Testbench failed: Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmpjnewpv9t/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmpjnewpv9t/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+        "errors": [],
+        "axi_checks": "failed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": false,
+      "reason": "Simulation failed: ['/tmp/tmpix2rcxc6/module.v:127: syntax error\\n/tmp/tmpix2rcxc6/module.v:127: error: Malformed statement\\n/tmp/tmpix2rcxc6/module.v:128: syntax error\\n/tmp/tmpix2rcxc6/module.v:128: error: Malformed statement\\n/tmp/tmpix2rcxc6/module.v:151: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:152: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:186: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:187: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:220: syntax error\\n/tmp/tmpix2rcxc6/module.v:220: error: Malformed statement\\n/tmp/tmpix2rcxc6/module.v:241: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:240: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:261: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:260: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:276: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:275: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:302: error: Variable declaration in unnamed block requires SystemVerilog.\\n/tmp/tmpix2rcxc6/module.v:301: error: Variable declaration in unnamed block requires SystemVerilog.\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpix2rcxc6/module.v:127: syntax error\n/tmp/tmpix2rcxc6/module.v:127: error: Malformed statement\n/tmp/tmpix2rcxc6/module.v:128: syntax error\n/tmp/tmpix2rcxc6/module.v:128: error: Malformed statement\n/tmp/tmpix2rcxc6/module.v:151: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:152: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:186: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:187: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:220: syntax error\n/tmp/tmpix2rcxc6/module.v:220: error: Malformed statement\n/tmp/tmpix2rcxc6/module.v:241: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:240: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:261: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:260: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:276: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:275: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:302: error: Variable declaration in unnamed block requires SystemVerilog.\n/tmp/tmpix2rcxc6/module.v:301: error: Variable declaration in unnamed block requires SystemVerilog.\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": false,
+      "reason": "Testbench failed: Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmp3xxvd5q4/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmp3xxvd5q4/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+        "errors": [],
+        "axi_checks": "failed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": false,
+      "reason": "Testbench failed: Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmp1sssh4bz/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmp1sssh4bz/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+        "errors": [],
+        "axi_checks": "failed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": false,
+      "reason": "Testbench failed: Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmphyn11b7f/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing AXI4 Full Master\nFAIL: ready should be high when idle\n/tmp/tmphyn11b7f/testbench.v:83: $finish(1) called at 240000 (1ps)\n",
+        "errors": [],
+        "axi_checks": "failed"
+      }
+    }
+  ],
+  "P6": [
+    {
+      "trial": 1,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PWM Generator\nPASS: All test cases passed\n",
+        "errors": [],
+        "pwm_checks": "passed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PWM Generator\nPASS: All test cases passed\n",
+        "errors": [],
+        "pwm_checks": "passed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PWM Generator\nPASS: All test cases passed\n",
+        "errors": [],
+        "pwm_checks": "passed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PWM Generator\nPASS: All test cases passed\n",
+        "errors": [],
+        "pwm_checks": "passed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PWM Generator\nPASS: All test cases passed\n",
+        "errors": [],
+        "pwm_checks": "passed"
+      }
+    }
+  ],
+  "P7": [
+    {
+      "trial": 1,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Motor Speed Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "control_checks": "passed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Motor Speed Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "control_checks": "passed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Motor Speed Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "control_checks": "passed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Motor Speed Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "control_checks": "passed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Motor Speed Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "control_checks": "passed"
+      }
+    }
+  ],
+  "P8": [
+    {
+      "trial": 1,
+      "pass": false,
+      "reason": "Testbench failed: Testing Quadrature Encoder\nFAIL: position should increment after one cycle\n/tmp/tmpn4bcogzh/testbench.v:36: $finish(1) called at 70000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Quadrature Encoder\nFAIL: position should increment after one cycle\n/tmp/tmpn4bcogzh/testbench.v:36: $finish(1) called at 70000 (1ps)\n",
+        "errors": [],
+        "encoder_checks": "failed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": false,
+      "reason": "Simulation failed at compile: ['/tmp/tmpku8o1evz/module.v:103: syntax error\\n/tmp/tmpku8o1evz/module.v:103: error: Malformed statement\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpku8o1evz/module.v:103: syntax error\n/tmp/tmpku8o1evz/module.v:103: error: Malformed statement\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": false,
+      "reason": "Testbench failed: Testing Quadrature Encoder\nFAIL: position should increment after one cycle\n/tmp/tmprnva3tqp/testbench.v:36: $finish(1) called at 70000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Quadrature Encoder\nFAIL: position should increment after one cycle\n/tmp/tmprnva3tqp/testbench.v:36: $finish(1) called at 70000 (1ps)\n",
+        "errors": [],
+        "encoder_checks": "failed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": false,
+      "reason": "Testbench failed: Testing Quadrature Encoder\nFAIL: position should increment after one cycle\n/tmp/tmpvw4od2pl/testbench.v:36: $finish(1) called at 70000 (1ps)\n",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Quadrature Encoder\nFAIL: position should increment after one cycle\n/tmp/tmpvw4od2pl/testbench.v:36: $finish(1) called at 70000 (1ps)\n",
+        "errors": [],
+        "encoder_checks": "failed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Quadrature Encoder\nPASS: All test cases passed\n",
+        "errors": [],
+        "encoder_checks": "passed"
+      }
+    }
+  ],
+  "P9": [
+    {
+      "trial": 1,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PID Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "pid_checks": "passed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PID Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "pid_checks": "passed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PID Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "pid_checks": "passed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing PID Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "pid_checks": "passed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": false,
+      "reason": "Simulation failed at compile: ['/tmp/tmpjm1ic192/module.v:136: syntax error\\n/tmp/tmpjm1ic192/module.v:136: error: Malformed statement\\n/tmp/tmpjm1ic192/module.v:137: syntax error\\n/tmp/tmpjm1ic192/module.v:137: error: Malformed statement\\n/tmp/tmpjm1ic192/module.v:138: syntax error\\n/tmp/tmpjm1ic192/module.v:138: error: Malformed statement\\n/tmp/tmpjm1ic192/module.v:139: syntax error\\n/tmp/tmpjm1ic192/module.v:139: error: Malformed statement\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpjm1ic192/module.v:136: syntax error\n/tmp/tmpjm1ic192/module.v:136: error: Malformed statement\n/tmp/tmpjm1ic192/module.v:137: syntax error\n/tmp/tmpjm1ic192/module.v:137: error: Malformed statement\n/tmp/tmpjm1ic192/module.v:138: syntax error\n/tmp/tmpjm1ic192/module.v:138: error: Malformed statement\n/tmp/tmpjm1ic192/module.v:139: syntax error\n/tmp/tmpjm1ic192/module.v:139: error: Malformed statement\n"
+        ],
+        "simulation": "failed"
+      }
+    }
+  ],
+  "P10": [
+    {
+      "trial": 1,
+      "pass": false,
+      "reason": "Simulation failed at compile: ['/tmp/tmp_jdrnk0n/module.v:30: syntax error\\n/tmp/tmp_jdrnk0n/module.v:30: error: Invalid module instantiation\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmp_jdrnk0n/module.v:30: syntax error\n/tmp/tmp_jdrnk0n/module.v:30: error: Invalid module instantiation\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 2,
+      "pass": true,
+      "reason": "Verification passed",
+      "details": {
+        "compilation": true,
+        "test_output": "Testing Servo Position Controller\nPASS: All test cases passed\n",
+        "errors": [],
+        "servo_checks": "passed"
+      }
+    },
+    {
+      "trial": 3,
+      "pass": false,
+      "reason": "Simulation failed at compile: ['/tmp/tmp9b9w2tu8/module.v:102: syntax error\\n/tmp/tmp9b9w2tu8/module.v:102: error: Malformed statement\\n/tmp/tmp9b9w2tu8/module.v:103: syntax error\\n/tmp/tmp9b9w2tu8/module.v:103: error: Malformed statement\\n/tmp/tmp9b9w2tu8/module.v:104: syntax error\\n/tmp/tmp9b9w2tu8/module.v:104: error: Malformed statement\\n/tmp/tmp9b9w2tu8/module.v:105: syntax error\\n/tmp/tmp9b9w2tu8/module.v:105: error: Malformed statement\\n/tmp/tmp9b9w2tu8/module.v:106: syntax error\\n/tmp/tmp9b9w2tu8/module.v:106: error: Malformed statement\\n/tmp/tmp9b9w2tu8/module.v:107: syntax error\\n/tmp/tmp9b9w2tu8/module.v:107: error: Malformed statement\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmp9b9w2tu8/module.v:102: syntax error\n/tmp/tmp9b9w2tu8/module.v:102: error: Malformed statement\n/tmp/tmp9b9w2tu8/module.v:103: syntax error\n/tmp/tmp9b9w2tu8/module.v:103: error: Malformed statement\n/tmp/tmp9b9w2tu8/module.v:104: syntax error\n/tmp/tmp9b9w2tu8/module.v:104: error: Malformed statement\n/tmp/tmp9b9w2tu8/module.v:105: syntax error\n/tmp/tmp9b9w2tu8/module.v:105: error: Malformed statement\n/tmp/tmp9b9w2tu8/module.v:106: syntax error\n/tmp/tmp9b9w2tu8/module.v:106: error: Malformed statement\n/tmp/tmp9b9w2tu8/module.v:107: syntax error\n/tmp/tmp9b9w2tu8/module.v:107: error: Malformed statement\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 4,
+      "pass": false,
+      "reason": "Simulation failed at compile: ['/tmp/tmp8kf_36ob/module.v:140: syntax error\\n/tmp/tmp8kf_36ob/module.v:162: error: Malformed statement\\n/tmp/tmp8kf_36ob/module.v:163: syntax error\\n/tmp/tmp8kf_36ob/module.v:163: error: Malformed statement\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmp8kf_36ob/module.v:140: syntax error\n/tmp/tmp8kf_36ob/module.v:162: error: Malformed statement\n/tmp/tmp8kf_36ob/module.v:163: syntax error\n/tmp/tmp8kf_36ob/module.v:163: error: Malformed statement\n"
+        ],
+        "simulation": "failed"
+      }
+    },
+    {
+      "trial": 5,
+      "pass": false,
+      "reason": "Simulation failed at compile: ['/tmp/tmpyd7zjrj2/module.v:182: syntax error\\n/tmp/tmpyd7zjrj2/module.v:185: error: Malformed statement\\n/tmp/tmpyd7zjrj2/module.v:186: syntax error\\n/tmp/tmpyd7zjrj2/module.v:186: error: Malformed statement\\n/tmp/tmpyd7zjrj2/module.v:198: syntax error\\n/tmp/tmpyd7zjrj2/module.v:200: Syntax in assignment statement l-value.\\n/tmp/tmpyd7zjrj2/module.v:207: syntax error\\n/tmp/tmpyd7zjrj2/module.v:211: error: Invalid module item.\\n']",
+      "details": {
+        "compilation": false,
+        "test_output": "",
+        "errors": [
+          "/tmp/tmpyd7zjrj2/module.v:182: syntax error\n/tmp/tmpyd7zjrj2/module.v:185: error: Malformed statement\n/tmp/tmpyd7zjrj2/module.v:186: syntax error\n/tmp/tmpyd7zjrj2/module.v:186: error: Malformed statement\n/tmp/tmpyd7zjrj2/module.v:198: syntax error\n/tmp/tmpyd7zjrj2/module.v:200: Syntax in assignment statement l-value.\n/tmp/tmpyd7zjrj2/module.v:207: syntax error\n/tmp/tmpyd7zjrj2/module.v:211: error: Invalid module item.\n"
+        ],
+        "simulation": "failed"
+      }
+    }
+  ]
+}
