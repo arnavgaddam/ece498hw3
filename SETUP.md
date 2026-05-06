@@ -1,4 +1,4 @@
-# ECE 498 BH - Assignment 3: LLM Reasoning for Engineering
+# ECE 498 BH - LLM Reasoning for Engineering
 
 ## Environment Setup
 
@@ -34,27 +34,28 @@ export OPENAI_API_KEY="your-api-key-here"
 | File | Description |
 |------|-------------|
 | `common.py` | Shared: problem definitions, API config, prompt builder |
-| `verifier.py` | Verification functions for all 5 problems |
-| `baseline.py` | Baseline evaluation (no tools) - 5 trials × 5 problems |
-| `tool_pipeline.py` | Tool-augmented pipeline (Option A: pre-defined tool) |
-| `tool_eval.py` | Tool-augmented evaluation |
-| `refinement.py` | Self-refinement + tools on P5 |
+| `verifier.py` | Verification functions for all 10 problems |
+| `baseline_eval.py` | Baseline evaluation (no tools) - 5 trials × 10 problems |
+| `memory.py` | Memory schema and JSON-backed store |
+| `extraction.py` | Lesson extraction prompt and helper |
+| `memory_pipeline.py` | Memory-augmented solve pipeline with retrieval |
+| `sequential_eval.py` | Sequential memory evaluation (5 trials) |
 
 ## Usage
 
 ### 1. Baseline Evaluation (No Tools)
 ```bash
-python baseline.py
+python baseline_eval.py
 ```
 
-### 2. Tool-Augmented Evaluation
+### 2. Memory-Augmented Solve (Single Run)
 ```bash
-python tool_eval.py
+python memory_pipeline.py
 ```
 
-### 3. Self-Refinement + Tools
+### 3. Sequential Memory Evaluation (5 Trials)
 ```bash
-python refinement.py
+python sequential_eval.py
 ```
 
 ## Problems
@@ -66,4 +67,8 @@ python refinement.py
 | P3 | I2C Master Controller | Hard |
 | P4 | AXI Stream FIFO | Hard |
 | P5 | AXI4 Full Master | Hard |
-
+| P6 | PWM Generator | Easy |
+| P7 | Motor Speed Controller | Easy |
+| P8 | Quadrature Encoder Interface | Medium |
+| P9 | PID Controller | Hard |
+| P10 | Servo Position Controller | Hard |
